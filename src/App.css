@@ -1,0 +1,178 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.main-img { 
+  width: 100%;
+  height: 850px;
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.1); /* Make it semi-transparent */
+  padding: 1rem;
+}
+
+.navbar-logo a {
+  font-size: 3rem;
+}
+
+.navbar-logo img {
+  height: 40px;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+
+.welcome-text {
+  position: absolute;
+  top: 1%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  font-size: 3rem; 
+  text-align: center;
+}
+
+.centered-button {
+  position: absolute;
+  top: 10%;
+  left: 48%;
+  transform: translate(-50%, -50%);
+  padding: 1rem 4rem;
+  background-image: linear-gradient(red, yellow, green);
+  color: black;
+  border: 1px black solid;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.main-title {
+  text-align: center;
+  margin-top: 2rem; 
+  margin-bottom: 2rem;
+  
+}
+
+.banner {
+  background-color: #a4bb11;
+  padding: 1rem 0;
+  margin-top: -1rem;
+}
+
+
+.section-1 {
+  display: flex;
+}
+
+.beach-info {
+  text-align: center;
+  font-size: 1.4rem;
+  line-height: 1.5;
+  margin-right: 1rem;
+}
+
+.benin-beach {
+  margin-left: 2rem;
+  margin-right: 1rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+h2 {
+  margin-left: 2rem;
+  margin-bottom: .5rem;
+  margin-top: 2rem;
+}
+
+.beaches-title {
+  text-align: center;
+  padding-top: 10rem;
+
+}
+
+.arts-title {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.arts-info {
+  margin-left: 5rem;
+  margin-right: 3rem;
+  font-size: 1.4rem;
+  line-height: 1.5;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+
+
+.section-4 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.section-6 {
+  display: flex;
+
+}
+
+.wild-title {
+  text-align: center;
+  margin-top: 4rem;
+  font-size: 2rem;
+
+
+}
+
+.wild-info {
+  margin-left: 5rem;
+  margin-right: 5rem;
+  margin-bottom: -1rem;
+  font-size: 1.4rem;
+  line-height: 1.5;
+  text-align: center;
+
+}
+
+.section-6 {
+  margin-top: 3rem;
+  margin-right: 2rem;
+}
+
+.footer {
+  background-color: #fff;
+  color: black;
+  padding: 50px;
+  text-align: center;
+}
+
+.footer-info {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
